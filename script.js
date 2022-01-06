@@ -1,13 +1,13 @@
 window.onload = function() {
 
-    var milsec = 00;
-    var secounds = 00;
-    var sec = document.getElementById("sec")
-    var milisec = document.getElementById("milsec")
+    var seconds = 00;
+    var tens = 00;
+    var appendSeconds = document.getElementById("sec")
+    var appendTens = document.getElementById("milsec")
     var buttonStart = document.getElementById("star")
     var buttonStop = document.getElementById("stop")
     var buttonReset = document.getElementById("reset")
-    var interval;
+    var Interval;
 
 
     buttonStart.onclick = function() {
