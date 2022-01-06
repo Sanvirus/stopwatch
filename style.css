@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 166, 0);
+    color: #fff;
+    margin: auto;
+    width: 50%;
+    padding: 15%;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+#space {
+    margin: auto;
+}
+
+#jap {
+    text-align: center;
+}
+
+.box {
+    width: 15vw;
+    height: 5vh;
+    color: #fff;
+    background-color: rgb(255, 166, 0);
+    border: solid white 2px;
+    font-size: x-large;
+    border-radius: 5%;
+    transition: all .5s ease;
+}
+
+.box:hover {
+    background-color: #fff;
+    color: rgb(255, 166, 0)
+}
+
+.space {
+    padding-top: 2vh;
+}
