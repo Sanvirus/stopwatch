@@ -1,1 +1,1 @@
-jap
+Practice of javascript
